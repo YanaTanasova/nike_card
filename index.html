@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nike Product Card</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+
+		<!-- card -->
+		<div class="card">
+
+			<div class="logo">
+				<img class="logo__img" src="img/logo.png">
+			</div>
+
+			<!-- card__content -->
+			<div class="card__content"><
+			
+				<!-- slider -->
+				<div class="slider">
+					<img src="img/Nike-SB-Stefan-Janoski-Max.png" class="slider__img">
+
+					<input type="radio" class="slider__dot" id="slide1" name="radio" 
+							checked>
+					<input type="radio" class="slider__dot" name="radio" id="slide2">	
+					<input type="radio" class="slider__dot" name="radio" id="slide3">
+					<input type="radio" class="slider__dot" name="radio" id="slide4">
+							
+					<div class="slider-label__list">
+						<label for="slide1" class="slider__label"></label>
+						<label for="slide2" class="slider__label"></label>
+						<label for="slide3" class="slider__label"></label>
+						<label for="slide4" class="slider__label"></label>
+					</div>
+				</div><!-- ./slider -->
+
+				<!-- card__info -->
+				<div class="card__info">
+				
+					<h1 class="card_title">Nike SB Stefan Janoski Max</h1>
+					<p class="card__subtitle">Unisex Skateboarding Shoe</p>
+
+					<div class="rating">
+						<ul class="rating__list">
+							<li class="rating__item ">
+								<i class="rating__i rating__i--checked"></i>
+							</li>
+							<li class="rating__item">
+								<i class="rating__i rating__i--checked"></i>
+							</li>
+							<li class="rating__item">
+								<i class="rating__i rating__i--checked"></i>
+							</li>
+							<li class="rating__item">
+								<i class="rating__i"></i>
+							</li>
+							<li class="rating__item">
+								<i class="rating__i"></i>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="drop-down-list">
+
+						<div class="btn btn--drop-down-list">Size</div>
+						<div class="btn btn--drop-down-list">Qty
+						</div>
+					</div>
+
+					<div class="add-btn-wrap">
+						<button class="btn btn--add">Add to cart</button>
+					</div>
+				</div><!-- ./card__info -->
+			</div><!-- card__content -->
+		</div><!-- ./card -->
+	</div>
+</body>
+</html>
